@@ -1,0 +1,13 @@
+train: C:/Users/jj205/Desktop/vehicle-detection/datasets/train/images
+val: C:/Users/jj205/Desktop/vehicle-detection/datasets/valid/images
+test: c:/Users/jj205/Desktop/vehicle-detection/datasets/test/images
+
+nc: 12
+names: ['bus-l-', 'bus-s-', 'car', 'extra large truck', 'large bus', 'medium truck', 'small bus', 'small truck', 'truck-l-', 'truck-m-', 'truck-s-', 'truck-xl-']
+
+roboflow:
+  workspace: aast-graduation-project
+  project: vehicle-detection-0iodr
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aast-graduation-project/vehicle-detection-0iodr/dataset/1
